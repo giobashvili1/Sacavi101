@@ -1481,70 +1481,84 @@ body{
     .mush-back{
     background-image: url(./img/purp-mushroom.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 75px
-    ;
+    padding-left: 60px;
+    padding-right: 60px;
     }
     .shroomie{
-        width:171px;
-    height:54px;
+            width: 121px;
+    height:24px;
+    padding: 10px 20px 10px 20px;
+    gap: 12px;
     border-radius: 30px;
     opacity: 0px;
     }
     .left-shroom{
-        padding-top: 70%;
+        padding-top: 45%;
     }
     .left-shroom h4{
+        padding-top: 20px;
+        margin: 0;
         width: 375px;
-        height: 46px;
-        font-family:"regular";
-        font-size: 38px;
-        font-weight: 600;
-        line-height: 45.6px;
-        text-align: left;
+    font-family: "regular";
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45.6px;
+    text-align: left;
     }
     .left-shroom button{
-        width:198px;
-        height:60px;
-        padding:22px, 50px, 22px, 50px; 
-        border-radius: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family:"regular";
-        color: black;
-        font-size: 16px;
-        font-weight: 600;
-        line-height: 22.4px;
-        text-align: center; 
+        margin-top: 20px;
+    width:198px;
+    height:60px;
+    padding: 22px 50px 22px 50px;
+    gap: 12px;
+    border-radius: 20px;
+    opacity: 0px;
+    font-family: "regular";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: center;
     }
     .right-shroom{
-        width: 295px;
-        height:147px;
-        padding: 30px 0px 0px 0px;
-        gap: 10px;
-        border-radius: 20px;   
+    margin-top: 50%;
+     width: 355px;
+    height:123px;
+    gap: 10px;
+    border-radius:20px;
     }
+    
     .ends p{
-        font-family: "space";
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 13.2px;
-        text-align: center;
+    font-family: "space";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.2px;
+    text-align: left;
     }
     .clock{
         display: flex;
         align-items: center;
+        justify-content: center;
+        gap: 5px
+        ;
     }
-    .ends h3{
-        font-family:"space";
-        font-size: 38px;
-        font-weight: 700;
-        line-height: 45.6px;
-        text-align: left;
+    .clock h3{
+    font-family:"space";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45.6px;
+    text-align: left;
+    }
+    .clock p{
+    font-family:"space";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.2px;
+    text-align: left;
+
     }
 
 
@@ -1657,7 +1671,15 @@ body{
         height: 280px;
         border-radius: 20px;
     }
+    .join{
+        
+        display: flex;
+        flex-direction: column;
+        gap: 20px
+        ;
+    }
         .join h3{
+            margin: 0;
             font-family: "regular";
             font-size: 28px;
             font-weight: 600;
@@ -1665,6 +1687,8 @@ body{
             text-align: left;
         }
         .join p{
+            margin: 0;
+            width: 350px;
             font-family: "regular";
             font-size: 16px;
             font-weight: 400;
@@ -1672,9 +1696,31 @@ body{
             text-align: left;    
         }
         .input{
+            margin-top: 20px;
             display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px
+            ;
         }
-
+        .input input{
+            margin-right: 40px;
+                padding-left: 10px;
+                width: 300px;
+                height: 46px;
+                gap: 12px;
+                border-radius: 20px;
+                border: 1px 0px 0px 0px;
+        }
+        .input button{
+                width:310px;
+                height:46px;
+                gap: 12px;
+                border-radius: 20px;
+                position: absolute;
+                border: none;
+                right: 11%;
+        }
 
         .footer{
             padding-left: 60px;
